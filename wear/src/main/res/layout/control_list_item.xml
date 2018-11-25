@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.basso.basso.itemlayout.ControlListItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/track_list_item_layout"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/transparent"
+    android:layout_height="60dp">
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:id="@+id/leftButton"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/centerButton"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/rightButton"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/seekbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/control_name"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/main_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <SeekBar
+                android:id="@+id/control_seekbar"
+                android:layout_below="@+id/control_name"
+                android:layout_width="match_parent"
+                android:progressDrawable="@drawable/apptheme_scrubber_progress_horizontal_holo_light"
+                android:indeterminateDrawable="@drawable/apptheme_scrubber_progress_horizontal_holo_light"
+                android:thumb="@drawable/apptheme_scrubber_control_selector_holo_light"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.basso.basso.itemlayout.ControlListItemLayout>

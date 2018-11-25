@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">아티스트</string>
+  <string name="page_albums">앨범</string>
+  <string name="page_songs">노래</string>
+  <string name="page_playlists">재생목록</string>
+  <string name="menu_equalizer">이퀄라이저</string>
+    <string name="balance">균형</string>
+    <string name="album">앨범</string>
+    <string name="artist">예술가</string>
+    <string name="now_playing">현재 게임</string>
+    <string name="choose_song_to_play">재생하는 노래를 선택</string>
+    <string name="unknown_artist">알 수없는 음악가</string>
+    <string name="volume">체적</string>
+</resources>

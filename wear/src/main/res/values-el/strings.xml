@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">Καλλιτέχνες</string>
+  <string name="page_albums">Άλμπουμ</string>
+  <string name="page_songs">Τραγούδια</string>
+  <string name="page_playlists">Λίστες αναπαραγωγής</string>
+  <string name="menu_equalizer">Ισοσταθμιστής</string>
+    <string name="balance">ισορροπία</string>
+    <string name="album">άλμπουμ</string>
+    <string name="artist">καλλιτέχνης</string>
+    <string name="now_playing">τώρα παίζει</string>
+    <string name="choose_song_to_play">Επιλέξτε το τραγούδι για να παίξει</string>
+    <string name="unknown_artist">Άγνωστος καλλιτέχνης</string>
+    <string name="volume">όγκος</string>
+</resources>

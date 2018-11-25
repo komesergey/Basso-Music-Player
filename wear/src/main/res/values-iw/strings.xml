@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">אמנים</string>
+  <string name="page_albums">אלבומים</string>
+  <string name="page_songs">שירים</string>
+  <string name="page_playlists">רשימות השמעה</string>
+  <string name="menu_equalizer">אקולייזר</string>
+    <string name="balance">מאזן</string>
+    <string name="album">גלרית</string>
+    <string name="artist">אמן</string>
+    <string name="now_playing">עכשיו משחק</string>
+    <string name="choose_song_to_play">בחר שיר לשחק</string>
+    <string name="unknown_artist">אמן לא ידוע</string>
+    <string name="volume">נפח</string>
+</resources>

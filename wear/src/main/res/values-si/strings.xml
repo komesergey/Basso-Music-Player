@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">කලාකරුවන්</string>
+  <string name="page_albums">ඇල්බම</string>
+  <string name="page_songs">ගීත</string>
+  <string name="page_playlists">වාදනලැයිස්තු</string>
+  <string name="menu_equalizer">සමකරකය</string>
+    <string name="balance">ශේෂ</string>
+    <string name="album">ඇල්බමය</string>
+    <string name="artist">චිත්ර ශිල්පියා</string>
+    <string name="now_playing">දැන් වාදනය</string>
+    <string name="choose_song_to_play">සෙල්ලම් කිරීමට ගීතය තෝරන්න</string>
+    <string name="unknown_artist">නොදන්නා චිත්ර ශිල්පියා</string>
+    <string name="volume">වෙළුම</string>
+</resources>

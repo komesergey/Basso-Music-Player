@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="page_artists">アーティスト</string>
+  <string name="page_albums">アルバム</string>
+  <string name="page_songs">曲</string>
+  <string name="page_playlists">プレイリスト</string>
+  <string name="menu_equalizer">イコライザー</string>
+    <string name="balance">バランス</string>
+    <string name="album">アルバム</string>
+    <string name="artist">アーティスト</string>
+    <string name="now_playing">プレイ中</string>
+    <string name="choose_song_to_play">再生する曲を選択してください</string>
+    <string name="unknown_artist">無名の画家</string>
+    <string name="volume">ボリューム</string>
+</resources>

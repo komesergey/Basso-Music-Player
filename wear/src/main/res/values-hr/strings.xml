@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">Umjetnici</string>
+  <string name="page_albums">Albumi</string>
+  <string name="page_songs">Pjesme</string>
+  <string name="page_playlists">Playliste</string>
+  <string name="menu_equalizer">Ekvalizer</string>
+    <string name="balance">Ravnoteža</string>
+    <string name="album">Album</string>
+    <string name="artist">Umjetnik</string>
+    <string name="now_playing">Sada igra</string>
+    <string name="choose_song_to_play">Odaberite pjesmu za reprodukciju</string>
+    <string name="unknown_artist">Nepoznati autor</string>
+    <string name="volume">Volumen</string>
+</resources>

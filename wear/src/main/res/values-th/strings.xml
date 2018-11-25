@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">ศิลปิน</string>
+  <string name="page_albums">อัลบั้ม</string>
+  <string name="page_songs">เพลง</string>
+  <string name="page_playlists">รายการเพลง</string>
+  <string name="menu_equalizer">Equalizer</string>
+    <string name="balance">สมดุล</string>
+    <string name="album">อัลบั้ม</string>
+    <string name="artist">ศิลปิน</string>
+    <string name="now_playing">กับเพลง</string>
+    <string name="choose_song_to_play">เลือกเพลงที่จะเล่น</string>
+    <string name="unknown_artist">ศิลปินที่ไม่รู้จัก</string>
+    <string name="volume">ปริมาณ</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="page_artists">Esitajad</string>
+  <string name="page_albums">Albumid</string>
+  <string name="page_songs">Laulud</string>
+  <string name="page_playlists">Esitusloendid</string>
+  <string name="menu_equalizer">Ekvalaiser</string>
+    <string name="balance">Tasakaal</string>
+    <string name="album">Album</string>
+    <string name="artist">Kunstnik</string>
+    <string name="now_playing">Praegu mängib</string>
+    <string name="choose_song_to_play">Vali laulu</string>
+    <string name="unknown_artist">Tundmatu kunstnik</string>
+    <string name="volume">Maht</string>
+</resources>

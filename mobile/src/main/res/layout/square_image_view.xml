@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.basso.basso.widgets.SquareView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/square_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.basso.basso.widgets.SquareImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+</com.basso.basso.widgets.SquareView>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    sothree:umanoPanelHeight="?android:attr/actionBarSize"
+    sothree:umanoShadowHeight="0dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.basso.basso.widgets.theme.ThemeableFrameLayout
+            android:id="@+id/activity_base_content"
+            android:paddingTop="?android:attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/sliding_panel"
+        android:layout_height="match_parent">
+        <include layout="@layout/bottom_action_bar"/>
+        <com.basso.basso.widgets.theme.ThemeableFrameLayout
+            xmlns:app="http://schemas.android.com/apk/res/com.basso.basso"
+            android:layout_width="match_parent"
+            android:background="@color/action_bar_background"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@color/action_bar_background"
+                android:layout_height="match_parent" >
+
+                <View
+                    android:id="@+id/audio_player_footer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignTop="@android:id/progress" />
+
+                <LinearLayout
+                    android:id="@+id/audio_player_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/audio_player_header_height"
+                    android:background="@color/action_bar_background"
+                    android:layout_alignParentTop="true"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/audio_player_header_padding_left"
+                        android:paddingRight="@dimen/audio_player_header_padding_right" >
+
+                        <com.basso.basso.widgets.theme.ThemeableTextView
+                            android:id="@+id/audio_player_track_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:textSize="@dimen/text_size_medium"
+                            app:themeResource="audio_player_line_one" />
+
+                        <com.basso.basso.widgets.theme.ThemeableTextView
+                            android:id="@+id/audio_player_artist_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:textSize="@dimen/text_size_medium"
+                            app:themeResource="audio_player_line_two" />
+                    </LinearLayout>
+                    <ImageButton
+                        android:id="@+id/equalizer_button"
+                        android:paddingRight="12dp"
+                        android:layout_width="wrap_content"
+                        android:background="@color/action_bar_background"
+                        android:src="@drawable/ic_equalizer_default"
+                        android:layout_height="match_parent" />
+                    <ImageButton
+                        android:id="@+id/queue_button"
+                        android:paddingRight="12dp"
+                        android:layout_width="wrap_content"
+                        android:background="@color/action_bar_background"
+                        android:src="@drawable/ic_playlist_button_thick_default"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@android:id/progress"
+                    android:background="@color/action_bar_background"
+                    android:paddingBottom="10dp"
+                    android:id="@+id/relative_make_not_clickable"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/audio_player_header" >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content">
+                            <android.support.v4.view.ViewPager
+                                android:id="@+id/album_art_pager"
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+
+                            <View
+                                android:id="@+id/audio_player_footer_two"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_below="@+id/album_art_pager" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/shadow_height"
+                                android:layout_alignTop="@+id/album_art_pager"
+                                android:contentDescription="@null"
+                                android:src="@drawable/top_shadow" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/shadow_height"
+                                android:layout_alignBottom="@+id/album_art_pager"
+                                android:contentDescription="@null"
+                                android:src="@drawable/bottom_shadow" />
+
+                            <FrameLayout
+                                android:id="@+id/lyrics_pager_container"
+                                android:layout_width="match_parent"
+                                android:background="@android:color/transparent"
+                                android:layout_alignBottom="@+id/album_art_pager"
+                                android:visibility="invisible"
+                                android:layout_height="wrap_content">
+                                <android.support.v4.view.ViewPager
+                                    android:id="@+id/lyrics_pager"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"/>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/shadow_height"
+                                    android:layout_gravity="top"
+                                    android:contentDescription="@null"
+                                    android:src="@drawable/top_shadow" />
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/shadow_height"
+                                    android:layout_gravity="bottom"
+                                    android:contentDescription="@null"
+                                    android:src="@drawable/bottom_shadow" />
+                            </FrameLayout>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content">
+                            <FrameLayout
+                                android:id="@+id/equalizer_pager_container"
+                                android:layout_width="match_parent"
+                                android:background="@color/action_bar_background"
+                                android:visibility="invisible"
+                                android:layout_height="wrap_content">
+                                <android.support.v4.view.ViewPager
+                                    android:id="@+id/equalizer_pader"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/shadow_height"
+                                    android:layout_gravity="top"
+                                    android:contentDescription="@null"
+                                    android:src="@drawable/top_shadow" />
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/shadow_height"
+                                    android:layout_gravity="bottom"
+                                    android:contentDescription="@null"
+                                    android:src="@drawable/bottom_shadow" />
+
+                            </FrameLayout>
+                            <FrameLayout
+                                android:id="@+id/audio_player_pager_container"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/action_bar_background"
+                                android:visibility="invisible" >
+
+                                <android.support.v4.view.ViewPager
+                                    android:id="@+id/audio_player_pager"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/shadow_height"
+                                    android:layout_gravity="top"
+                                    android:contentDescription="@null"
+                                    android:src="@drawable/top_shadow" />
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/shadow_height"
+                                    android:layout_gravity="bottom"
+                                    android:contentDescription="@null"
+                                    android:src="@drawable/bottom_shadow" />
+                            </FrameLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <com.basso.basso.widgets.theme.ThemeableTextView
+                    android:id="@+id/audio_player_current_time"
+                    android:layout_width="@dimen/audio_player_time_width"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@android:id/progress"
+                    android:layout_alignParentLeft="true"
+                    android:background="@color/action_bar_background"
+                    android:layout_alignTop="@android:id/progress"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_micro"
+                    app:themeResource="audio_player_current_time" />
+
+                <com.basso.basso.widgets.theme.ThemeableTextView
+                    android:id="@+id/audio_player_total_time"
+                    android:layout_width="@dimen/audio_player_time_width"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@android:id/progress"
+                    android:background="@color/action_bar_background"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@android:id/progress"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_micro"
+                    app:themeResource="audio_player_total_time" />
+
+                <com.basso.basso.widgets.theme.ThemeableSeekBar
+                    android:id="@android:id/progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/audio_player_controlss"
+                    android:layout_marginBottom="@dimen/audio_player_seek_bar_margin_bottom"
+                    android:background="@color/action_bar_background"
+                    android:layout_toLeftOf="@+id/audio_player_total_time"
+                    android:layout_toRightOf="@+id/audio_player_current_time"
+                    android:max="1000"
+                    android:thumb="@null" />
+
+                <LinearLayout
+                    android:id="@+id/audio_player_controlss"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/action_bar_background"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:baselineAligned="false"
+                    android:gravity="center" >
+
+                    <include layout="@layout/audio_player_controls" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <include layout="@layout/colorstrip" />
+        </com.basso.basso.widgets.theme.ThemeableFrameLayout>
+    </LinearLayout>
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

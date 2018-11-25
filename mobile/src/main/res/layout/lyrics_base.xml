@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lyrics_framelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ImageView
+        android:id="@+id/lyrics_background"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent"/>
+
+    <ScrollView
+        android:id="@+id/audio_player_lyrics_frame"
+        android:layout_width="match_parent"
+        android:background="@color/lyrics_glass"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <com.basso.basso.widgets.theme.ThemeableTextView
+            android:id="@+id/audio_player_lyrics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textColor="@android:color/white"
+            android:padding="@dimen/list_preferred_item_padding"
+            android:textStyle="bold"/>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/audio_player_lyrics_progess"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:visibility="gone" />
+
+</FrameLayout>

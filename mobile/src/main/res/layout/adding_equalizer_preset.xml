@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adding_preset_layout"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/new_equalizer_preset_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:maxLines="1"
+        android:paddingLeft="5dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/action_bar_background"
+        android:textSize="18dip"
+        android:text="New equalizer preset"/>
+    <EditText android:id="@+id/edit_text_preset_name"
+        android:layout_below="@id/new_equalizer_preset_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preset name" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/edit_text_preset_name"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/cancel_preset_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/action_bar_background"
+            android:background="@drawable/button_shuffle_header"
+            android:text="@string/cancel" />
+        <Button
+            android:id="@+id/add_preset_button"
+            android:textColor="@color/action_bar_background"
+            android:background="@drawable/button_shuffle_header"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+    </LinearLayout>
+</RelativeLayout>

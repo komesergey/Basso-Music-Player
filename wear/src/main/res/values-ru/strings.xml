@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="page_artists">Исполнители</string>
+  <string name="page_albums">Альбомы</string>
+  <string name="page_songs">Треки</string>
+  <string name="page_playlists">Плейлисты</string>
+  <string name="menu_equalizer">Эквалайзер</string>
+    <string name="balance">Баланс</string>
+    <string name="album">Альбом</string>
+    <string name="artist">Исполнитель</string>
+    <string name="now_playing">Сейчас играет</string>
+    <string name="choose_song_to_play">Выберите трек для воспроизведения</string>
+    <string name="unknown_artist">Неизвестный исполнитель</string>
+    <string name="volume">Громкость</string>
+</resources>

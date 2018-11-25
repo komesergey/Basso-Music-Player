@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">Artists</string>
+  <string name="page_albums">Albums</string>
+  <string name="page_songs">Songs</string>
+  <string name="page_playlists">Playlists</string>
+  <string name="menu_equalizer">Equaliser</string>
+    <string name="balance">Balance</string>
+    <string name="album">Album</string>
+    <string name="artist">Artist</string>
+    <string name="now_playing">Now playing</string>
+    <string name="choose_song_to_play">Choose song to play</string>
+    <string name="unknown_artist">Unknown artist</string>
+    <string name="volume">Volume</string>
+</resources>

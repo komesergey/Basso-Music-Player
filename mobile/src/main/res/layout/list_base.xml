@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_base_container"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:textColor="@color/action_bar_background"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <com.basso.basso.dragdrop.DragSortListView
+        android:id="@+id/list_base"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="true"
+        android:scrollbarSize="20dip"
+        android:scrollbarStyle="outsideInset"
+        android:fadingEdge="vertical"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<ListView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/equalizer_listview"
+    android:layout_width="match_parent"
+    android:headerDividersEnabled="false"
+    android:footerDividersEnabled="false"
+    android:background="@color/action_bar_background"
+    android:layout_height="match_parent"/>

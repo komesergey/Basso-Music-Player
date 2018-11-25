@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="page_artists">هونەرمەند</string>
+  <string name="page_albums">ئەلبوم</string>
+  <string name="page_songs">گۆرانییەکان</string>
+  <string name="page_playlists">لیستی لێدان</string>
+  <string name="menu_equalizer">یه‌کسانکه‌ری ده‌نگ</string>
+    <string name="balance">بالەنس</string>
+    <string name="album">ئالبەم</string>
+    <string name="artist">ئاتەست</string>
+    <string name="now_playing">ناو پلێيينگ</string>
+    <string name="choose_song_to_play">چووز سۆنگ تو پلێى</string>
+    <string name="unknown_artist">ئەننەون ئاتەست</string>
+    <string name="volume">ڤۆليوم</string>
+</resources>

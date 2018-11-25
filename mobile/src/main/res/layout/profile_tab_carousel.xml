@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile_tab_carousel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="0dp"
+    class="com.basso.basso.widgets.ProfileTabCarousel"
+    android:fadingEdge="none"
+    android:scrollbars="none" >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/header_picture"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/blue_filter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/header_filter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:id="@+id/profile_tab_carousel_tab_and_shadow_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <View
+                android:id="@+id/profile_tab_carousel_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/profile_photo_shadow_height"
+                android:background="@android:color/transparent" />
+            <LinearLayout
+                android:id="@+id/profile_tab_carousel_tab_container"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <include
+                    android:id="@+id/profile_tab_carousel_tab_one"
+                    layout="@layout/profile_tab" />
+
+                <include
+                    android:id="@+id/profile_tab_carousel_tab_two"
+                    layout="@layout/profile_tab" />
+
+                <include
+                    android:id="@+id/profile_tab_carousel_tab_three"
+                    layout="@layout/profile_tab" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</view>

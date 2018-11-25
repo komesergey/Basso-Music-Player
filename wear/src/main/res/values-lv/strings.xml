@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">Izpildītāji</string>
+  <string name="page_albums">Albumi</string>
+  <string name="page_songs">Dziesmas</string>
+  <string name="page_playlists">Atskaņošanas saraksti</string>
+  <string name="menu_equalizer">Ekvalaizers</string>
+    <string name="balance">līdzsvars</string>
+    <string name="album">Albums</string>
+    <string name="artist">Mākslinieks</string>
+    <string name="now_playing">Tagad spēlē</string>
+    <string name="choose_song_to_play">Izvēlieties dziesmu spēlēt</string>
+    <string name="unknown_artist">Nezināms mākslinieks</string>
+    <string name="volume">Tilpums</string>
+</resources>

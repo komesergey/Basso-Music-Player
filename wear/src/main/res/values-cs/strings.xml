@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="page_artists">Umělci</string>
+  <string name="page_albums">Alba</string>
+  <string name="page_songs">Skladby</string>
+  <string name="page_playlists">Seznamy skladeb</string>
+  <string name="menu_equalizer">Ekvalizér</string>
+    <string name="balance">Zůstatek</string>
+    <string name="album">Album</string>
+    <string name="artist">umělec</string>
+    <string name="now_playing">Nyní hrajete</string>
+    <string name="choose_song_to_play">Vyberte si píseň hrát</string>
+    <string name="unknown_artist">Neznámý umělec</string>
+    <string name="volume">Objem</string>
+</resources>

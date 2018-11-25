@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">Artis</string>
+  <string name="page_albums">Album</string>
+  <string name="page_songs">Lagu</string>
+  <string name="page_playlists">Daftar Putar</string>
+  <string name="menu_equalizer">Equalizer</string>
+    <string name="balance">Keseimbangan</string>
+    <string name="album">Album</string>
+    <string name="artist">Artis</string>
+    <string name="now_playing">Sedang dimainkan</string>
+    <string name="choose_song_to_play">Pilih lagu untuk bermain</string>
+    <string name="unknown_artist">Artis yang tidak diketahui</string>
+    <string name="volume">Volume</string>
+</resources>

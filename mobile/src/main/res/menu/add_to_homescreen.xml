@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_add_to_homescreen"
+        android:icon="@drawable/ic_action_pinn_to_home"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_add_to_homescreen"/>
+
+</menu>

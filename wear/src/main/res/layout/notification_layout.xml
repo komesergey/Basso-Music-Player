@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/notification_rewind"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_ic_action_rewind"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/notification_play"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_action_play"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/notification_fast_forward"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_ic_action_fast_forward"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+</FrameLayout>

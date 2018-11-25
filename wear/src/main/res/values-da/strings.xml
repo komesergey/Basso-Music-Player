@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">Kunstnere</string>
+  <string name="page_albums">Albums</string>
+  <string name="page_songs">Sange</string>
+  <string name="page_playlists">Playlister</string>
+  <string name="menu_equalizer">Equalizer</string>
+    <string name="balance">Balance</string>
+    <string name="album">Album</string>
+    <string name="artist">kunstner</string>
+    <string name="now_playing">Nu spiller</string>
+    <string name="choose_song_to_play">Vælg sang at spille</string>
+    <string name="unknown_artist">Ukendt kunstner</string>
+    <string name="volume">Volumen</string>
+</resources>

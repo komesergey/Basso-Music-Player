@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">Előadók</string>
+  <string name="page_albums">Albumok</string>
+  <string name="page_songs">Dalok</string>
+  <string name="page_playlists">Lejátszási listák</string>
+  <string name="menu_equalizer">Hangszínszabályzó</string>
+    <string name="balance">Egyensúly</string>
+    <string name="album">Album</string>
+    <string name="artist">Művész</string>
+    <string name="now_playing">Most játszik</string>
+    <string name="choose_song_to_play">Válasszon dalt játszani</string>
+    <string name="unknown_artist">Ismeretlen művész</string>
+    <string name="volume">Kötet</string>
+</resources>

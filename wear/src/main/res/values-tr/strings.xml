@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">Sanatçılar</string>
+  <string name="page_albums">Albümler</string>
+  <string name="page_songs">Şarkılar</string>
+  <string name="page_playlists">Çalma Listeleri</string>
+  <string name="menu_equalizer">Equalizer</string>
+    <string name="balance">Denge</string>
+    <string name="album">Albüm</string>
+    <string name="artist">sanatçı</string>
+    <string name="now_playing">Şu anda, dinleme</string>
+    <string name="choose_song_to_play">Oynamak için şarkıyı seçin</string>
+    <string name="unknown_artist">Bilinmeyen sanatçı</string>
+    <string name="volume">Hacim</string>
+</resources>

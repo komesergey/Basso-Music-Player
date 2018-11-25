@@ -1,0 +1,29 @@
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/frame_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/playlist_page_name"
+            android:textColor="@android:color/white"
+            android:text="@string/page_playlists"
+            android:fontFamily="sans-serif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+        <android.support.wearable.view.WearableListView
+            android:background="@android:color/white"
+            android:id="@+id/playlists_list"
+            android:layout_below="@+id/playlist_page_name"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+        </android.support.wearable.view.WearableListView>
+    </RelativeLayout>
+</android.support.wearable.view.BoxInsetLayout>

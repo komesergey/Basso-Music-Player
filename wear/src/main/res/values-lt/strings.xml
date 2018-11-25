@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">Artistai</string>
+  <string name="page_albums">Albumai</string>
+  <string name="page_songs">Dainos</string>
+  <string name="page_playlists">Grojaraščiai</string>
+  <string name="menu_equalizer">Ekvalaizeris</string>
+    <string name="balance">Balansas</string>
+    <string name="album">Albumas</string>
+    <string name="artist">Menininkas</string>
+    <string name="now_playing">Dabar žaisti</string>
+    <string name="choose_song_to_play">Pasirinkite dainą žaisti</string>
+    <string name="unknown_artist">Nežinomas dailininkas</string>
+    <string name="volume">Apimtis</string>
+</resources>

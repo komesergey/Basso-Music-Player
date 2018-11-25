@@ -1,0 +1,61 @@
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/box_inset_layout"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/control_page_name"
+            android:textColor="@android:color/white"
+            android:text="@string/now_playing"
+            android:fontFamily="sans-serif"
+            android:background="@color/main_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.wearable.view.WearableListView
+                android:background="@android:color/transparent"
+                android:id="@+id/control_list"
+                android:layout_below="@+id/control_artist_name"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+            </android.support.wearable.view.WearableListView>
+            <RelativeLayout
+                android:id="@+id/frame_layout"
+                android:gravity="top"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:text="@string/choose_song_to_play"
+                    android:id="@+id/control_track_name"
+                    android:textColor="@color/main_color"
+                    android:background="@color/transparent_black"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/control_artist_name"
+                    android:textColor="@color/main_color"
+                    android:background="@color/transparent_black"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:singleLine="true"
+                    android:layout_below="@+id/control_track_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</android.support.wearable.view.BoxInsetLayout>

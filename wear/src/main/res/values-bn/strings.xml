@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="page_artists">শিল্পীরা</string>
+  <string name="page_albums">অ্যালবাম সমূহ</string>
+  <string name="page_songs">গান সমূহ</string>
+  <string name="page_playlists">গানের তালিকা গুলো</string>
+  <string name="menu_equalizer">ইকুয়ালাইজার</string>
+    <string name="balance">ভারসাম্য</string>
+    <string name="album">অ্যালবাম</string>
+    <string name="artist">শিল্পী</string>
+    <string name="now_playing">এখন চলছে</string>
+    <string name="choose_song_to_play">গান প্লে করার জন্য চয়ন করুন</string>
+    <string name="unknown_artist">অজানা শিল্পী</string>
+    <string name="volume">আয়তন</string>
+</resources>

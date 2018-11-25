@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="page_artists">Artister</string>
+  <string name="page_albums">Album</string>
+  <string name="page_songs">Låtar</string>
+  <string name="page_playlists">Spellistor</string>
+  <string name="menu_equalizer">Equalizer</string>
+    <string name="balance">Balans</string>
+    <string name="album">Album</string>
+    <string name="artist">konstnär</string>
+    <string name="now_playing">Lyssnar</string>
+    <string name="choose_song_to_play">Välj låt att spela</string>
+    <string name="unknown_artist">Okänd konstnär</string>
+    <string name="volume">Volym</string>
+</resources>

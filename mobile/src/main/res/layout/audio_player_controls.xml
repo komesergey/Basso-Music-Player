@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <com.basso.basso.widgets.ShuffleButton
+            android:id="@+id/action_button_shuffle_panel"
+            android:layout_width="@dimen/audio_player_controls_end_button_width"
+            android:layout_height="@dimen/audio_player_controls_end_button_height"
+            android:layout_gravity="center"
+            android:contentDescription="@string/accessibility_shuffle"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_playback_shuffle" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <com.basso.basso.widgets.RepeatingImageButton
+            android:id="@+id/action_button_previous_panel"
+            android:layout_width="@dimen/audio_player_controls_main_button_width"
+            android:layout_height="@dimen/audio_player_controls_main_button_height"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_playback_previous" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <com.basso.basso.widgets.PlayPauseButton
+            android:id="@+id/action_button_play_panel"
+            android:layout_width="@dimen/audio_player_controls_main_button_width"
+            android:layout_height="@dimen/audio_player_controls_main_button_height"
+            android:layout_gravity="center"
+            android:contentDescription="@string/accessibility_play"
+            android:focusable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_playback_play" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <com.basso.basso.widgets.RepeatingImageButton
+            android:id="@+id/action_button_next_panel"
+            android:layout_width="@dimen/audio_player_controls_main_button_width"
+            android:layout_height="@dimen/audio_player_controls_main_button_height"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_playback_next" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <com.basso.basso.widgets.RepeatButton
+            android:id="@+id/action_button_repeat_panel"
+            android:layout_width="@dimen/audio_player_controls_end_button_width"
+            android:layout_height="@dimen/audio_player_controls_end_button_height"
+            android:layout_gravity="center"
+            android:contentDescription="@string/accessibility_repeat"
+            android:focusable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_playback_repeat" />
+    </FrameLayout>
+
+</merge>

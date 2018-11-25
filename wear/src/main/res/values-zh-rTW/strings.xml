@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="page_artists">演出者</string>
+  <string name="page_albums">專輯</string>
+  <string name="page_songs">樂曲</string>
+  <string name="page_playlists">播放清單</string>
+  <string name="menu_equalizer">等化器</string>
+    <string name="balance">平衡</string>
+    <string name="album">专辑</string>
+    <string name="artist">艺术家</string>
+    <string name="now_playing">现在玩</string>
+    <string name="choose_song_to_play">选择歌曲播放</string>
+    <string name="unknown_artist">未知艺术家</string>
+    <string name="volume">音量</string>
+</resources>

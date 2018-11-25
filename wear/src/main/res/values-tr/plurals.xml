@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <plurals name="NNNtrackstoplaylist">
+    <item quantity="one"><xliff:g id="number" example="1">%d</xliff:g> şarkı çalma listesine eklendi.</item>
+    <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> şarkı çalma listesine eklendi.</item>
+  </plurals>
+  <plurals name="NNNtracksfromplaylist">
+    <item quantity="one"><xliff:g id="number" example="1">%d</xliff:g> şarkı oynatma listesinden silindi.</item>
+    <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> şarkı oynatma listesinden silindi.</item>
+  </plurals>
+</resources>

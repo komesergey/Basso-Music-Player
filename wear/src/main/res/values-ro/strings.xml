@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="page_artists">Artiști</string>
+  <string name="page_albums">Albume</string>
+  <string name="page_songs">Melodii</string>
+  <string name="page_playlists">Liste de redare</string>
+  <string name="menu_equalizer">Egalizator</string>
+    <string name="balance">Balanța</string>
+    <string name="album">Album</string>
+    <string name="artist">Artist</string>
+    <string name="now_playing">Joc acum</string>
+    <string name="choose_song_to_play">Alege melodie pentru a juca</string>
+    <string name="unknown_artist">Artist necunoscut</string>
+    <string name="volume">Volum</string>
+</resources>

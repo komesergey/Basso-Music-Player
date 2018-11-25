@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="page_artists">Esittäjät</string>
+  <string name="page_albums">Albumit</string>
+  <string name="page_songs">Kappaleet</string>
+  <string name="page_playlists">Soittolistat</string>
+    <string name="menu_equalizer">Taajuuskorjain</string>
+    <string name="balance">Tasapaino</string>
+    <string name="album">Albumi</string>
+    <string name="artist">Taiteilija</string>
+    <string name="now_playing">Nyt soi</string>
+    <string name="choose_song_to_play">Valitse toistettava kappale</string>
+    <string name="unknown_artist">Tuntematon taiteilija</string>
+    <string name="volume">Tilavuus</string>
+</resources>
